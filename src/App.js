@@ -1,26 +1,25 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <Hansel />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          That Hansel, he is SO not right now!
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
       </header>
     </div>
   );
+}
+
+function Hansel() {
+  return (
+    <div>
+      <img src="hansel.png" alt="You can dere-lickt..."/>
+    </div>
+  )
 }
 
 export default App;
