@@ -1,4 +1,4 @@
-<p align="center"><img src="./public/hansel_cartoon.jpg"></p>
+<p align="center"><img src="./public/hansel_cartoon.jpg" width="300px"></p>
 
 # Hansel
 ## An app for kids who can't program good and want to learn how to do other stuff good too.
