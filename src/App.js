@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <Hansel />
         <p>
-          That Hansel, he is SO not right now!
+          That Hansel, he is SO hot right now!
         </p>
       </header>
     </div>
