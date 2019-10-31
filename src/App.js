@@ -1,7 +1,13 @@
 import React from 'react';
+import AddressSearch from './AddressSearch.jsx'
 import './App.css';
 
 function App() {
+
+  const debugAddress = (address) => {
+    console.dir(address)
+  }
+
   return (
     <div className="App">
       <header className="App-header">
@@ -9,6 +15,7 @@ function App() {
         <p>
           That Hansel, he is SO hot right now!
         </p>
+        <AddressSearch onPlaceChanged={debugAddress}/>
       </header>
     </div>
   );
